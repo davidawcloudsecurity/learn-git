@@ -6,6 +6,6 @@ https://stackoverflow.com/questions/37410262/how-to-create-a-gitlab-merge-reques
 
 https://dev.to/farnabaz/gitlab-create-merge-requests-from-cli-c36
 ```bash
-git push -o merge_request.create -o merge_request.target=develop
+git push -o merge_request.create -o merge_request.target=your-branch-name
 git push --set-upstream origin your-branch-name -o merge_request.create
 ```
